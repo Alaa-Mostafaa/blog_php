@@ -67,7 +67,7 @@
              
               <?php  require_once 'handle/conn.php';
               
-              if($_SESSION['user_id']){
+              if(isset($_SESSION['user_id'])){
 
 
               
